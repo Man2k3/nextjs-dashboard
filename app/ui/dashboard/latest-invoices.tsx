@@ -7,7 +7,7 @@ import {fetchLatestInvoices} from '@/app/lib/data';
 
 
 export default async function LatestInvoices({
-  latestInvoices: innitiallatestInvoice,
+  latestInvoices: latestInvoice,
 }: {
   latestInvoices: LatestInvoice[];
 }) {

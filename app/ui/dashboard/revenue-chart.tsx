@@ -11,7 +11,7 @@ import { fetchRevenue } from '@/app/lib/data';
 // https://airbnb.io/visx/
 
 export default async function RevenueChart({
-  revenue: initialRevenue,
+  
 }: {
   revenue: Revenue[];
 }) {
